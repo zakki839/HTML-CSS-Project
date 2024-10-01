@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+:root{
+    --gradient-color:linear-gradient(rgb(230,16,201),#fdba02);
+    --background-color:#6d114d;
+    --primary-color:#fdba02;
+}
+body{ 
+    font-family:'dancing script',cursive ;
+    background-color: var(--background-color);
+    border:2rem solid transparent ;
+    border-image: linear-gradient(95deg,rgb(77, 129, 19),#d20b50);
+    border-image-slice: 2;
+
+}
+
+nav{
+    height:100%;
+    width:100%;
+    display: flex;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    top:0;
+    left: 0;
+    position:sticky;
+    z-index: 1;
+}
+.logo{
+    width: 35%;
+    height: 100px;
+
+}
+.logo h1{
+    line-height:100px ;
+    padding-left: 10rem ;
+    font-size: 2.5rem;
+}
+ul{
+  color:var(--primary-color) ;
+  background-color: var(--background-color);
+} 
+.items{
+    width: 50%;
+    height: 8vh;
+    justify-content: space-around ;
+    display: flex;
+    flex-direction: row;
+    color:var(--primary-color);
+    background-color: var(--background-color);
+    list-style: none;
+   padding-top: 2rem;
+}
+.items li a{
+    font-size:1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+ /* second part  of  project-body styling----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ .font{
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+ }
+.font h2{
+    padding-top: 10rem;
+}
+h4{
+    font-size:1.5rem ;
+    text-align: center;
+    background: #e7e4da;
+    -webkit-background-clip: text;
+    webkit-text-fill-color: transparent;
+    padding-top:1.5rem; 
+    text-justify: newspaper;
+}
+/* project part-3---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.font h3{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-align: center;
+     padding-top: 3rem;
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+ }
+
+ .font h5{
+    font-weight: bolder;
+    font-family:'peddana',serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 2rem;
+    background: #e7e4da;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    text-justify: distribute-all-lines;
+ }
+ /* hero section */
+ #hero{
+    height: 35rem;
+ }
+ #about-img{
+    width: 35rem;
+    height: 20rem;
+ }
+ .about-heading{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+ }
+.about-body{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+}
+.about-content{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+/* services section PART-4------------------------------------------------------------------------------------------ */
+
+.services-heading{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+}
+
+.services{
+    display:grid ;
+    justify-content:space-around ;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+
+}
+/* PArt-5      ARTICLES------------------------------------------- */
+.article-img{
+    width: 30REM;
+    height: 15rem;
+}
+.article-heading{
+    padding-top:10rem ;
+    padding-bottom: 10rem;
+}
+.article-1{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-row-gap:1rem ;
+    grid-column-gap: 5rem;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.article-2{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-row-gap: 1rem;
+    grid-column-gap: 5rem;
+    justify-content: space-between;
+    padding-left: 3rem;
+}
+.article-3{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-row-gap:1rem ;
+    grid-column-gap: 5rem;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+/* part-6 FOOTER STYLE------------------------------------------------------------------------------------ */
+.footer-heading{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.footer-body{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10rem;
+}
